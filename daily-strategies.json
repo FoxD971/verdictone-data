@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-09-27T06:16:25.697105+00:00",
+  "as_of": "2026-09-27",
+  "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
+  "variants": [
+    {
+      "id": "F7-crypto",
+      "display_name": "F7 crypto",
+      "description": "Long-only 20-day-high breakout with a 1.5x volume surge on BTC, ETH, XRP, SOL and DOGE. Stop 2xATR, target 3xATR.",
+      "backtest": {
+        "trades": 650,
+        "avg_r": 0.14,
+        "pf": 1.25,
+        "max_dd_r": null,
+        "note": "Original F7 sweep: 1.17M candles, 64 coins, 15 strategy families. Positive every year. Volume-surge 1.5x and ATR(14) are rebuild calibrations, not the original spec."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [
+          {
+            "symbol": "SOL-USD",
+            "entry": 119.99,
+            "stop": 108.71428571428571,
+            "target": 136.9035714285714,
+            "opened_at": "2026-09-26T14:14:33.398954+00:00"
+          }
+        ],
+        "recent": []
+      }
+    },
+    {
+      "id": "F7-gold",
+      "display_name": "F7 gold",
+      "description": "Same F7 breakout rules on GC=F gold futures. Never part of the original F7 backtest universe, so it carries its own proof.",
+      "backtest": null,
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
+      }
+    },
+    {
+      "id": "NR7",
+      "display_name": "NR7",
+      "description": "Crabel narrowest-range-7 contraction breakout. Entry on a close above the NR7-day high within 5 days, stop at the NR7 low, 2R target. Frozen Sep 26 2026.",
+      "backtest": {
+        "trades": 568,
+        "avg_r": 0.32,
+        "pf": 1.69,
+        "max_dd_r": null,
+        "note": "4 years with real costs. Positive every year."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
+      }
+    },
+    {
+      "id": "IDNR7",
+      "display_name": "IDNR7",
+      "description": "Inside day that is also the narrowest range of the last 7 sessions, breakout of the coil high. Same mechanics as NR7 (5-day watch window, one shot per coil, 2R target). Frozen Sep 27 2026.",
+      "backtest": {
+        "trades": 377,
+        "avg_r": 0.258,
+        "pf": 1.52,
+        "max_dd_r": 12.34,
+        "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
+      }
+    },
+    {
+      "id": "TURTLE55",
+      "display_name": "Turtle55",
+      "description": "55-day Donchian breakout, 2xATR(20) stop, 3xATR(20) target. Same family as F7, lookback diversification only. Frozen Sep 26 2026.",
+      "backtest": {
+        "trades": 136,
+        "avg_r": 0.59,
+        "pf": 2.63,
+        "max_dd_r": null,
+        "note": "4 years with real costs."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [
+          {
+            "symbol": "SOL-USD",
+            "entry": 119.99,
+            "stop": 109.30399999999999,
+            "target": 136.019,
+            "opened_at": "2026-09-26T14:14:33.398954+00:00"
+          }
+        ],
+        "recent": []
+      }
+    }
+  ]
+}
