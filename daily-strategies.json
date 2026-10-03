@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T00:44:46.167279+00:00",
-  "as_of": "2026-10-02",
+  "generated_at": "2026-10-03T00:44:45.062285+00:00",
+  "as_of": "2026-10-03",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -63,30 +63,34 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 0,
-        "wins": 0,
-        "win_rate": null,
-        "avg_r": null,
-        "total_r": null,
-        "pf": null,
-        "max_dd_r": null,
-        "open": [
-          {
-            "symbol": "BTC-USD",
-            "entry": 84470.44,
-            "stop": 83777.77,
-            "target": 85855.78,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00"
-          },
+        "closed_trades": 2,
+        "wins": 1,
+        "win_rate": 0.5,
+        "avg_r": 0.5,
+        "total_r": 1.0,
+        "pf": 2.0,
+        "max_dd_r": 1.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "ETH-USD",
             "entry": 2697.41,
-            "stop": 2663.54,
-            "target": 2765.1499999999996,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00"
+            "exit": 2663.54,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-02T00:44:03.960607+00:00",
+            "closed_at": "2026-10-03T00:44:03.263992+00:00"
+          },
+          {
+            "symbol": "BTC-USD",
+            "entry": 84470.44,
+            "exit": 85855.78,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-02T00:44:03.960607+00:00",
+            "closed_at": "2026-10-03T00:44:03.263992+00:00"
           }
-        ],
-        "recent": []
+        ]
       }
     },
     {
@@ -101,23 +105,25 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 0,
-        "wins": 0,
-        "win_rate": null,
-        "avg_r": null,
-        "total_r": null,
+        "closed_trades": 1,
+        "wins": 1,
+        "win_rate": 1.0,
+        "avg_r": 2.0,
+        "total_r": 2.0,
         "pf": null,
-        "max_dd_r": null,
-        "open": [
+        "max_dd_r": 0.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "BTC-USD",
             "entry": 84470.44,
-            "stop": 83777.77,
-            "target": 85855.78,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00"
+            "exit": 85855.78,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-02T00:44:03.960607+00:00",
+            "closed_at": "2026-10-03T00:44:03.263992+00:00"
           }
-        ],
-        "recent": []
+        ]
       }
     },
     {
