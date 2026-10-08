@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T00:46:42.302435+00:00",
-  "as_of": "2026-10-07",
+  "generated_at": "2026-10-08T00:46:06.388053+00:00",
+  "as_of": "2026-10-08",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -63,30 +63,33 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 5,
+        "closed_trades": 7,
         "wins": 4,
-        "win_rate": 0.8,
-        "avg_r": 1.4,
-        "total_r": 7.0,
-        "pf": 8.0,
-        "max_dd_r": 1.0,
-        "open": [
-          {
-            "symbol": "ETH-USD",
-            "entry": 2690.63,
-            "stop": 2665.15,
-            "target": 2741.59,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00"
-          },
+        "win_rate": 0.5714,
+        "avg_r": 0.7143,
+        "total_r": 5.0,
+        "pf": 2.667,
+        "max_dd_r": 2.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "SOL-USD",
             "entry": 120.08,
-            "stop": 118.51,
-            "target": 123.21999999999998,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 118.51,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-05T00:44:08.768986+00:00",
+            "closed_at": "2026-10-08T00:44:06.713397+00:00"
+          },
+          {
+            "symbol": "ETH-USD",
+            "entry": 2690.63,
+            "exit": 2665.15,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-05T00:44:08.768986+00:00",
+            "closed_at": "2026-10-08T00:44:06.713397+00:00"
+          },
           {
             "symbol": "XRP-USD",
             "entry": 1.4958,
@@ -147,30 +150,33 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 4,
+        "closed_trades": 6,
         "wins": 4,
-        "win_rate": 1.0,
-        "avg_r": 2.0,
-        "total_r": 8.0,
-        "pf": null,
-        "max_dd_r": 0.0,
-        "open": [
-          {
-            "symbol": "ETH-USD",
-            "entry": 2690.63,
-            "stop": 2665.15,
-            "target": 2741.59,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00"
-          },
+        "win_rate": 0.6667,
+        "avg_r": 1.0,
+        "total_r": 6.0,
+        "pf": 4.0,
+        "max_dd_r": 2.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "SOL-USD",
             "entry": 120.08,
-            "stop": 118.51,
-            "target": 123.21999999999998,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 118.51,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-05T00:44:08.768986+00:00",
+            "closed_at": "2026-10-08T00:44:06.713397+00:00"
+          },
+          {
+            "symbol": "ETH-USD",
+            "entry": 2690.63,
+            "exit": 2665.15,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-05T00:44:08.768986+00:00",
+            "closed_at": "2026-10-08T00:44:06.713397+00:00"
+          },
           {
             "symbol": "XRP-USD",
             "entry": 1.4958,
