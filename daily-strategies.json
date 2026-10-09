@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:46:11.048665+00:00",
+  "generated_at": "2026-10-09T14:35:56.100796+00:00",
   "as_of": "2026-10-09",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -249,6 +249,29 @@
             "closed_at": "2026-10-09T00:44:15.704159+00:00"
           }
         ]
+      }
+    },
+    {
+      "id": "TURTLE10TSR",
+      "display_name": "Turtle10 TSR",
+      "description": "10-day Turtle breakout with time-stop and regime filter. Frozen Oct 9 2026 as v2.0.",
+      "backtest": {
+        "trades": 234,
+        "avg_r": 0.378,
+        "pf": 2.735,
+        "max_dd_r": 5.24,
+        "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 61.1 percent. Cycle 32 refinement winner, beats parent TURTLE10TS on profit factor and win rate."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
       }
     }
   ]
