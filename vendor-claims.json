@@ -239,7 +239,8 @@
   {
    "audit_notes": [
     "No public performance claims found as of 2026-10-09. Seen only as a TradingView indicator label ('GO Hunter 10 2.5', ATR-band + smart panel) in Eman's stream screenshots supplied 2026-10-09.",
-    "Web search returns unrelated third-party 'Gold Hunter' EAs; none affiliated with GO AI."
+    "Web search returns unrelated third-party 'Gold Hunter' EAs; none affiliated with GO AI.",
+    "2026-10-09 replication verdict: our frozen replication of the visible logic (Supertrend(10,2.5) flips + EMA regime filter + 1R/2R/3R brackets, real costs, 70/30 IS/OOS) found no edge \u2014 OOS profit factor 0.24-0.74, win rates 23-38% vs the vendor's claimed 84.21%/PF 10.21. KILL. Full report: go_hunter_replication.md."
    ],
    "claim_date": null,
    "evidence_type": "none-found",
@@ -270,7 +271,8 @@
   {
    "audit_notes": [
     "No public performance claims found as of 2026-10-09. Seen only as a TradingView indicator label ('GO Impulse 10 2.5', 3m XAUUSD with entry/SL/TP1-TP3 ladder) in Eman's stream screenshots supplied 2026-10-09.",
-    "In the supplied screenshot the indicator printed 'Strong Sell' immediately before ~$15 rally through all buy targets."
+    "In the supplied screenshot the indicator printed 'Strong Sell' immediately before ~$15 rally through all buy targets.",
+    "2026-10-09 replication verdict: our frozen replication of the visible logic (Supertrend(10,2.5) flips + EMA regime filter + 1R/2R/3R brackets, real costs, 70/30 IS/OOS) found no edge \u2014 OOS profit factor 0.24-0.74, win rates 23-38% vs the vendor's claimed 84.21%/PF 10.21. KILL. Full report: go_hunter_replication.md."
    ],
    "claim_date": null,
    "evidence_type": "none-found",
