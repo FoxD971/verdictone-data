@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T14:35:56.100796+00:00",
-  "as_of": "2026-10-09",
+  "generated_at": "2026-10-10T00:50:06.528872+00:00",
+  "as_of": "2026-10-10",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -72,7 +72,15 @@
         "total_r": 5.0,
         "pf": 2.667,
         "max_dd_r": 2.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "XAU-USD",
+            "entry": 4170.7001953125,
+            "stop": 4128.10009765625,
+            "target": 4255.900390625,
+            "opened_at": "2026-10-10T00:44:09.943860+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "SOL-USD",
@@ -159,7 +167,15 @@
         "total_r": 6.0,
         "pf": 4.0,
         "max_dd_r": 2.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "XAU-USD",
+            "entry": 4170.7001953125,
+            "stop": 4128.10009765625,
+            "target": 4255.900390625,
+            "opened_at": "2026-10-10T00:44:09.943860+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "SOL-USD",
