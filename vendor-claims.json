@@ -1,0 +1,309 @@
+{
+ "claims": [
+  {
+   "audit_notes": [
+    "Arithmetic is internally consistent (32/38=84.21%, 4800/470=10.21).",
+    "Claimed avg win/loss ratio 1.92 contradicts the vendor's own described method (TP1 then move stop to breakeven), which caps the max possible ratio at 1.50 at 84% WR before costs.",
+    "PF 10.21 is roughly 3-7x what honest published intraday gold systems print (typical PF 1.5-2.5).",
+    "Independent 225-rule real-cost replication (2026-10-03/04) failed: best WR 65.5%, best PF 2.96 in-sample, all closest candidates negative out-of-sample in September itself.",
+    "No trade-level list, no losing months shown, no third-party verification."
+   ],
+   "claim_date": "2026-10-03",
+   "evidence_type": "screenshot-only",
+   "id": "go-bell-sept-2026-board",
+   "metrics": {
+    "avg_loss_pips": 78.33,
+    "avg_win_pips": 150.0,
+    "breakeven": null,
+    "loss_pips": -470,
+    "losses": 6,
+    "net_pips_claimed": 4330,
+    "net_pips_recomputed": 4330,
+    "profit_factor_claimed": 10.21,
+    "profit_factor_recomputed": 10.21,
+    "trades": 38,
+    "win_loss_ratio": 1.92,
+    "win_pips": 4800,
+    "win_rate_claimed_pct": 84.21,
+    "win_rate_recomputed_pct": 84.21,
+    "wins": 32
+   },
+   "observed_at": "2026-10-09",
+   "period": "September 2026",
+   "period_end": "2026-09-30",
+   "period_start": "2026-09-01",
+   "product": "GO Bell Signals",
+   "series": "go-bell-monthly",
+   "source_url": "user-shared Telegram screenshot (GO Bell Signals channel), shared 2026-10-03; no public URL",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "MATH FAILURE: 43052/54696 = 78.71%, not the labeled 82%.",
+    "54,696 'signals' in 30 days is ~1,824/day: the counter aggregates entries, TP touches and updates, not trade ideas. Not comparable to the 38-trade board.",
+    "No trade-level list, no third-party verification."
+   ],
+   "claim_date": "2026-10-03",
+   "evidence_type": "screenshot-only",
+   "id": "go-bell-sept-2026-82pct-board",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": 54696,
+    "win_pips": null,
+    "win_rate_claimed_pct": 82.0,
+    "win_rate_recomputed_pct": 78.71,
+    "wins": 43052
+   },
+   "observed_at": "2026-10-09",
+   "period": "September 2026",
+   "period_end": "2026-09-30",
+   "period_start": "2026-09-01",
+   "product": "GO Bell Signals",
+   "series": "go-bell-monthly",
+   "source_url": "user-shared Telegram screenshot, shared 2026-10-03; no public URL",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "MISMATCH 1 (counts): summary says 9W/3L/2BE but the board's own listed trades show 12 wins / 2 losses / 0 breakeven.",
+    "MISMATCH 2 (win pips): summary says +1650 but listed wins sum to +2160.",
+    "MISMATCH 3 (loss pips): summary says -310 but listed losses sum to -450.",
+    "MISMATCH 4 (net): summary says +1340 net but listed trades net to +1710.",
+    "Unusually the summary UNDERSTATES its own list; neither version is reconcilable, suggesting summary and list were computed from different data or at different times.",
+    "Win rate basis undocumented: 75% = 9/(9+3) on summary (BE excluded); listed trades imply 85.7% (12/14).",
+    "Board header reads 'From 05 OCT To 09 OCT'; filed period uses those dates.",
+    "Per-trade direction+pips shown but no entry timestamps; outcomes self-reported by channel admin; TP celebrations posted per TP level ('Tp1 hit 30 pip', 'Tp2 hit 80 pip'), consistent with per-TP-touch pip counting."
+   ],
+   "claim_date": "2026-10-09",
+   "evidence_type": "screenshot-only",
+   "id": "gold-intra-day-intel-weekly-2026-10-05_09",
+   "metrics": {
+    "breakeven": 2,
+    "loss_pips_claimed": -310,
+    "loss_pips_listed": -450,
+    "losses": 3,
+    "net_pips_claimed": 1340,
+    "net_pips_recomputed": 1710,
+    "profit_factor_claimed": 5.32,
+    "profit_factor_recomputed": 4.8,
+    "trades": 14,
+    "win_pips_claimed": 1650,
+    "win_pips_listed": 2160,
+    "win_rate_claimed_pct": 75.0,
+    "win_rate_recomputed_pct": 85.71,
+    "wins": 9
+   },
+   "observed_at": "2026-10-09",
+   "period": "2026-10-05 to 2026-10-09",
+   "period_end": "2026-10-09",
+   "period_start": "2026-10-05",
+   "product": "Gold Intra Day Intel",
+   "series": "gold-intra-day-intel-weekly",
+   "signal_samples": [
+    {
+     "dir": "SELL",
+     "entry": 4144,
+     "outcome_note": "admin closed early at 4149: 'cut the Trade close 4149, Zone not valid anymore'",
+     "sl": 4155,
+     "tps": [
+      4141,
+      4138,
+      4134,
+      4128
+     ]
+    },
+    {
+     "dir": "BUY",
+     "entry": 4147,
+     "outcome_note": "admin marked all 5 TPs hit",
+     "sl": 4140,
+     "tps": [
+      4150,
+      4155,
+      4160,
+      4165,
+      4175
+     ]
+    }
+   ],
+   "source_url": "user-supplied screenshot from Eman's stream (Telegram channel 'Gold Intra Day Intel', 3,040 subscribers); files: go_intel_weekly_board_2026-10-09.jpg, go_intel_signal_posts_2026-10-09.jpg",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "VERIFIED ABSENCE: no win rate, backtest, TP/SL rules or track record published anywhere on goai.global (checked via WP REST API page index + page fetch 2026-10-09; same finding 2026-10-04).",
+    "Marketing language only ('AI-Generated Signals', position size 'auto-calibrated'); page carries disclaimer 'GO OS can make mistakes. Assess market conditions before trading.'",
+    "Pricing page lists GO OS signal quotas 30/60/90 per month by tier; no performance attached to any tier."
+   ],
+   "claim_date": null,
+   "evidence_type": "site-page",
+   "id": "go-os-site-nostats",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": null,
+    "win_pips": null,
+    "win_rate_claimed_pct": null,
+    "win_rate_recomputed_pct": null,
+    "wins": null
+   },
+   "observed_at": "2026-10-09",
+   "period": null,
+   "period_end": null,
+   "period_start": null,
+   "product": "GO OS",
+   "series": null,
+   "source_url": "https://goai.global/go-os/",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "VERIFIED ABSENCE: no performance statistics, backtest or forward results published on the page (live fetch 2026-10-09).",
+    "Page displays 'Rating: 4.9/5 (127 reviews)' but no review source, venue or individual reviews are shown on the page.",
+    "Hero demo shows a single cherry-picked signal (AI SCORE 87%, TP1/TP2 HIT) - marketing illustration, not a track record.",
+    "$89 one-time, all sales final, no refunds."
+   ],
+   "claim_date": null,
+   "evidence_type": "site-page",
+   "id": "goai-one-indicator-nostats",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": null,
+    "win_pips": null,
+    "win_rate_claimed_pct": null,
+    "win_rate_recomputed_pct": null,
+    "wins": null
+   },
+   "observed_at": "2026-10-09",
+   "period": null,
+   "period_end": null,
+   "period_start": null,
+   "product": "GO AI indicator (goai.one)",
+   "rating_claimed": "4.9/5 (127 reviews)",
+   "series": null,
+   "source_url": "https://www.goai.one/",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "No reviewer quotes any signal-performance number (win rate, pips, returns) across all reviews read.",
+    "Review count FELL 80 -> 77 between 2026-10-04 and 2026-10-09, suggesting removals.",
+    "NEW 2026-10-09 one-star review alleges MLM/pyramid structure and that coaches 'barely ever show their true trading history'; company reply disclaims guaranteed trading results.",
+    "2026-10-05 review (Kayleigh) confirms the 'Go bell channel' exists and was recently moved to the highest subscription tier only.",
+    "Reviews cluster late Sep - early Oct 2026; several read as templated."
+   ],
+   "claim_date": null,
+   "evidence_type": "review-aggregate",
+   "id": "trustpilot-goai-aggregate",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": null,
+    "win_pips": null,
+    "win_rate_claimed_pct": null,
+    "win_rate_recomputed_pct": null,
+    "wins": null
+   },
+   "observed_at": "2026-10-09",
+   "period": null,
+   "period_end": null,
+   "period_start": null,
+   "product": "GO AI, LLC (platform)",
+   "rating_claimed": "4.7/5 (77 reviews)",
+   "series": null,
+   "source_url": "https://uk.trustpilot.com/review/goai.global",
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "No public performance claims found as of 2026-10-09. Seen only as a TradingView indicator label ('GO Hunter 10 2.5', ATR-band + smart panel) in Eman's stream screenshots supplied 2026-10-09.",
+    "Web search returns unrelated third-party 'Gold Hunter' EAs; none affiliated with GO AI."
+   ],
+   "claim_date": null,
+   "evidence_type": "none-found",
+   "id": "go-hunter-noclaims",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": null,
+    "win_pips": null,
+    "win_rate_claimed_pct": null,
+    "win_rate_recomputed_pct": null,
+    "wins": null
+   },
+   "observed_at": "2026-10-09",
+   "period": null,
+   "period_end": null,
+   "period_start": null,
+   "product": "GO Hunter",
+   "series": null,
+   "source_url": null,
+   "trade_list_available": false
+  },
+  {
+   "audit_notes": [
+    "No public performance claims found as of 2026-10-09. Seen only as a TradingView indicator label ('GO Impulse 10 2.5', 3m XAUUSD with entry/SL/TP1-TP3 ladder) in Eman's stream screenshots supplied 2026-10-09.",
+    "In the supplied screenshot the indicator printed 'Strong Sell' immediately before ~$15 rally through all buy targets."
+   ],
+   "claim_date": null,
+   "evidence_type": "none-found",
+   "id": "go-impulse-noclaims",
+   "metrics": {
+    "breakeven": null,
+    "loss_pips": null,
+    "losses": null,
+    "net_pips_claimed": null,
+    "net_pips_recomputed": null,
+    "profit_factor_claimed": null,
+    "profit_factor_recomputed": null,
+    "trades": null,
+    "win_pips": null,
+    "win_rate_claimed_pct": null,
+    "win_rate_recomputed_pct": null,
+    "wins": null
+   },
+   "observed_at": "2026-10-09",
+   "period": null,
+   "period_end": null,
+   "period_start": null,
+   "product": "GO Impulse",
+   "series": null,
+   "source_url": null,
+   "trade_list_available": false
+  }
+ ],
+ "meta": {
+  "compiled_at": "2026-10-09",
+  "compiled_by": "vendor-claim scrape (public sources only, no logins, no purchases)",
+  "entry_count": 8,
+  "label": "ALL FIGURES BELOW ARE VENDOR-CLAIMED AND UNVERIFIED unless audit_notes say recomputed",
+  "vendor": "GO AI ecosystem (goai.global / goai.one / Telegram channels / YouTube)"
+ }
+}
