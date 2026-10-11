@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:46:33.544935+00:00",
+  "generated_at": "2026-10-11T15:45:39.437441+00:00",
   "as_of": "2026-10-11",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -299,7 +299,30 @@
         "avg_r": 0.536,
         "pf": 3.414,
         "max_dd_r": 7.22,
-        "note": "4 years with real costs on 12 symbols (11 crypto majors + gold). Win rate 69.3 percent. Cycle 34 winner, beats parent TURTLE10TSR v2.0 on profit factor, win rate, and max drawdown. Alert champion."
+        "note": "4 years with real costs on 12 symbols (11 crypto majors + gold). Win rate 69.3 percent. Cycle 34 winner, beats parent TURTLE10TSR v2.0 on profit factor, win rate, and max drawdown. Alert champion Oct 10-11, dethroned by NR3TSM v2.0."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
+      }
+    },
+    {
+      "id": "NR3TSM",
+      "display_name": "NR3TSM",
+      "description": "Narrowest-range-3 contraction breakout with momentum confluence. Frozen Oct 11 2026 as v2.0.",
+      "backtest": {
+        "trades": 272,
+        "avg_r": 1.107,
+        "pf": 5.628,
+        "max_dd_r": 5.11,
+        "note": "4 years with real costs. Win rate 77.2 percent. Cycle 36 winner, beats parent NR3TS on profit factor, win rate, and max drawdown. Current alert champion (dethroned TURTLE10TSRV v3.0 on 3 of 3)."
       },
       "paper": {
         "closed_trades": 0,
