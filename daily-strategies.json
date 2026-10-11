@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T00:50:06.528872+00:00",
-  "as_of": "2026-10-10",
+  "generated_at": "2026-10-11T00:46:33.544935+00:00",
+  "as_of": "2026-10-11",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -277,6 +277,29 @@
         "pf": 2.735,
         "max_dd_r": 5.24,
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 61.1 percent. Cycle 32 refinement winner, beats parent TURTLE10TS on profit factor and win rate."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [],
+        "recent": []
+      }
+    },
+    {
+      "id": "TURTLE10TSRV",
+      "display_name": "Turtle10 TSRV",
+      "description": "10-day Turtle breakout with time-stop, regime filter, and volume gate. Frozen Oct 10 2026 as v3.0 (lineage ceiling).",
+      "backtest": {
+        "trades": 254,
+        "avg_r": 0.536,
+        "pf": 3.414,
+        "max_dd_r": 7.22,
+        "note": "4 years with real costs on 12 symbols (11 crypto majors + gold). Win rate 69.3 percent. Cycle 34 winner, beats parent TURTLE10TSR v2.0 on profit factor, win rate, and max drawdown. Alert champion."
       },
       "paper": {
         "closed_trades": 0,
