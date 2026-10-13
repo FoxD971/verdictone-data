@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T00:47:52.685730+00:00",
-  "as_of": "2026-10-12",
+  "generated_at": "2026-10-13T00:47:04.058112+00:00",
+  "as_of": "2026-10-13",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -65,28 +65,14 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 9,
+        "closed_trades": 11,
         "wins": 4,
-        "win_rate": 0.4444,
-        "avg_r": 0.3333,
-        "total_r": 3.0,
-        "pf": 1.6,
-        "max_dd_r": 4.0,
+        "win_rate": 0.3636,
+        "avg_r": 0.0909,
+        "total_r": 1.0,
+        "pf": 1.143,
+        "max_dd_r": 6.0,
         "open": [
-          {
-            "symbol": "BTC-USD",
-            "entry": 83093.39,
-            "stop": 82458.02,
-            "target": 84364.12999999999,
-            "opened_at": "2026-10-12T00:44:06.399464+00:00"
-          },
-          {
-            "symbol": "ETH-USD",
-            "entry": 2517,
-            "stop": 2483.62,
-            "target": 2583.76,
-            "opened_at": "2026-10-12T00:44:06.399464+00:00"
-          },
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
@@ -96,6 +82,24 @@
           }
         ],
         "recent": [
+          {
+            "symbol": "ETH-USD",
+            "entry": 2517,
+            "exit": 2483.62,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-12T00:44:06.399464+00:00",
+            "closed_at": "2026-10-13T00:44:06.683325+00:00"
+          },
+          {
+            "symbol": "BTC-USD",
+            "entry": 83093.39,
+            "exit": 82458.02,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-12T00:44:06.399464+00:00",
+            "closed_at": "2026-10-13T00:44:06.683325+00:00"
+          },
           {
             "symbol": "DOGE-USD",
             "entry": 0.08666,
@@ -167,15 +171,6 @@
             "r": -1.0,
             "opened_at": "2026-10-02T00:44:03.960607+00:00",
             "closed_at": "2026-10-03T00:44:03.263992+00:00"
-          },
-          {
-            "symbol": "BTC-USD",
-            "entry": 84470.44,
-            "exit": 85855.78,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00",
-            "closed_at": "2026-10-03T00:44:03.263992+00:00"
           }
         ]
       }
@@ -192,28 +187,14 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 7,
+        "closed_trades": 9,
         "wins": 4,
-        "win_rate": 0.5714,
-        "avg_r": 0.7143,
-        "total_r": 5.0,
-        "pf": 2.667,
-        "max_dd_r": 3.0,
+        "win_rate": 0.4444,
+        "avg_r": 0.3333,
+        "total_r": 3.0,
+        "pf": 1.6,
+        "max_dd_r": 5.0,
         "open": [
-          {
-            "symbol": "BTC-USD",
-            "entry": 83093.39,
-            "stop": 82458.02,
-            "target": 84364.12999999999,
-            "opened_at": "2026-10-12T00:44:06.399464+00:00"
-          },
-          {
-            "symbol": "ETH-USD",
-            "entry": 2517,
-            "stop": 2483.62,
-            "target": 2583.76,
-            "opened_at": "2026-10-12T00:44:06.399464+00:00"
-          },
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
@@ -223,6 +204,24 @@
           }
         ],
         "recent": [
+          {
+            "symbol": "ETH-USD",
+            "entry": 2517,
+            "exit": 2483.62,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-12T00:44:06.399464+00:00",
+            "closed_at": "2026-10-13T00:44:06.683325+00:00"
+          },
+          {
+            "symbol": "BTC-USD",
+            "entry": 83093.39,
+            "exit": 82458.02,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-12T00:44:06.399464+00:00",
+            "closed_at": "2026-10-13T00:44:06.683325+00:00"
+          },
           {
             "symbol": "SOL-USD",
             "entry": 110.68,
