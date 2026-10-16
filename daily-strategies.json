@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T00:48:34.348929+00:00",
-  "as_of": "2026-10-15",
+  "generated_at": "2026-10-16T00:46:23.055983+00:00",
+  "as_of": "2026-10-16",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -65,23 +65,24 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 11,
+        "closed_trades": 12,
         "wins": 4,
-        "win_rate": 0.3636,
-        "avg_r": 0.0909,
-        "total_r": 1.0,
-        "pf": 1.143,
-        "max_dd_r": 6.0,
-        "open": [
+        "win_rate": 0.3333,
+        "avg_r": 0.0,
+        "total_r": 0.0,
+        "pf": 1.0,
+        "max_dd_r": 7.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
-            "stop": 4128.10009765625,
-            "target": 4255.900390625,
-            "opened_at": "2026-10-10T00:44:09.943860+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 4128.10009765625,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-10T00:44:09.943860+00:00",
+            "closed_at": "2026-10-16T00:44:07.854861+00:00"
+          },
           {
             "symbol": "ETH-USD",
             "entry": 2517,
@@ -162,15 +163,6 @@
             "r": 2.0,
             "opened_at": "2026-10-05T00:44:08.768986+00:00",
             "closed_at": "2026-10-05T00:46:07.830469+00:00"
-          },
-          {
-            "symbol": "ETH-USD",
-            "entry": 2697.41,
-            "exit": 2663.54,
-            "reason": "stop",
-            "r": -1.0,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00",
-            "closed_at": "2026-10-03T00:44:03.263992+00:00"
           }
         ]
       }
@@ -187,23 +179,24 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 9,
+        "closed_trades": 10,
         "wins": 4,
-        "win_rate": 0.4444,
-        "avg_r": 0.3333,
-        "total_r": 3.0,
-        "pf": 1.6,
-        "max_dd_r": 5.0,
-        "open": [
+        "win_rate": 0.4,
+        "avg_r": 0.2,
+        "total_r": 2.0,
+        "pf": 1.333,
+        "max_dd_r": 6.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
-            "stop": 4128.10009765625,
-            "target": 4255.900390625,
-            "opened_at": "2026-10-10T00:44:09.943860+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 4128.10009765625,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-10T00:44:09.943860+00:00",
+            "closed_at": "2026-10-16T00:44:07.854861+00:00"
+          },
           {
             "symbol": "ETH-USD",
             "entry": 2517,
