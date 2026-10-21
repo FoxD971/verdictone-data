@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T00:46:51.970095+00:00",
-  "as_of": "2026-10-20",
+  "generated_at": "2026-10-21T00:46:56.174017+00:00",
+  "as_of": "2026-10-21",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -79,6 +79,34 @@
             "stop": 80700,
             "target": 83566.41,
             "opened_at": "2026-10-19T00:44:17.391965+00:00"
+          },
+          {
+            "symbol": "DOGE-USD",
+            "entry": 0.0802,
+            "stop": 0.07854,
+            "target": 0.08351999999999998,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00"
+          },
+          {
+            "symbol": "ETH-USD",
+            "entry": 2443.86,
+            "stop": 2382.34,
+            "target": 2566.9,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00"
+          },
+          {
+            "symbol": "SOL-USD",
+            "entry": 106.11,
+            "stop": 103.44,
+            "target": 111.45,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00"
+          },
+          {
+            "symbol": "XRP-USD",
+            "entry": 1.3202,
+            "stop": 1.292,
+            "target": 1.3766,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00"
           }
         ],
         "recent": [
