@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T00:46:56.174017+00:00",
-  "as_of": "2026-10-21",
+  "generated_at": "2026-10-22T00:57:34.066464+00:00",
+  "as_of": "2026-10-22",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -65,28 +65,14 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 12,
-        "wins": 4,
-        "win_rate": 0.3333,
-        "avg_r": 0.0,
-        "total_r": 0.0,
-        "pf": 1.0,
+        "closed_trades": 15,
+        "wins": 7,
+        "win_rate": 0.4667,
+        "avg_r": 0.4,
+        "total_r": 6.0,
+        "pf": 1.75,
         "max_dd_r": 7.0,
         "open": [
-          {
-            "symbol": "BTC-USD",
-            "entry": 81655.47,
-            "stop": 80700,
-            "target": 83566.41,
-            "opened_at": "2026-10-19T00:44:17.391965+00:00"
-          },
-          {
-            "symbol": "DOGE-USD",
-            "entry": 0.0802,
-            "stop": 0.07854,
-            "target": 0.08351999999999998,
-            "opened_at": "2026-10-21T00:44:05.387512+00:00"
-          },
           {
             "symbol": "ETH-USD",
             "entry": 2443.86,
@@ -100,16 +86,36 @@
             "stop": 103.44,
             "target": 111.45,
             "opened_at": "2026-10-21T00:44:05.387512+00:00"
+          }
+        ],
+        "recent": [
+          {
+            "symbol": "DOGE-USD",
+            "entry": 0.0802,
+            "exit": 0.08351999999999998,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00",
+            "closed_at": "2026-10-22T00:44:12.023152+00:00"
           },
           {
             "symbol": "XRP-USD",
             "entry": 1.3202,
-            "stop": 1.292,
-            "target": 1.3766,
-            "opened_at": "2026-10-21T00:44:05.387512+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 1.3766,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00",
+            "closed_at": "2026-10-22T00:44:12.023152+00:00"
+          },
+          {
+            "symbol": "BTC-USD",
+            "entry": 81655.47,
+            "exit": 83566.41,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-19T00:44:17.391965+00:00",
+            "closed_at": "2026-10-22T00:44:12.023152+00:00"
+          },
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
@@ -172,33 +178,6 @@
             "r": -1.0,
             "opened_at": "2026-10-05T00:44:08.768986+00:00",
             "closed_at": "2026-10-08T00:44:06.713397+00:00"
-          },
-          {
-            "symbol": "XRP-USD",
-            "entry": 1.4958,
-            "exit": 1.5293999999999999,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-06T00:44:06.305945+00:00"
-          },
-          {
-            "symbol": "DOGE-USD",
-            "entry": 0.09362,
-            "exit": 0.09601999999999998,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-05T00:46:07.830469+00:00"
-          },
-          {
-            "symbol": "BTC-USD",
-            "entry": 85021.57,
-            "exit": 86214.57,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-05T00:46:07.830469+00:00"
           }
         ]
       }
@@ -215,23 +194,24 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 10,
-        "wins": 4,
-        "win_rate": 0.4,
-        "avg_r": 0.2,
-        "total_r": 2.0,
-        "pf": 1.333,
+        "closed_trades": 11,
+        "wins": 5,
+        "win_rate": 0.4545,
+        "avg_r": 0.3636,
+        "total_r": 4.0,
+        "pf": 1.667,
         "max_dd_r": 6.0,
-        "open": [
+        "open": [],
+        "recent": [
           {
             "symbol": "BTC-USD",
             "entry": 81655.47,
-            "stop": 80700,
-            "target": 83566.41,
-            "opened_at": "2026-10-19T00:44:17.391965+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 83566.41,
+            "reason": "target",
+            "r": 2.0,
+            "opened_at": "2026-10-19T00:44:17.391965+00:00",
+            "closed_at": "2026-10-22T00:44:12.023152+00:00"
+          },
           {
             "symbol": "XAU-USD",
             "entry": 4170.7001953125,
@@ -312,15 +292,6 @@
             "r": 2.0,
             "opened_at": "2026-10-05T00:44:08.768986+00:00",
             "closed_at": "2026-10-05T00:46:07.830469+00:00"
-          },
-          {
-            "symbol": "BTC-USD",
-            "entry": 84470.44,
-            "exit": 85855.78,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-02T00:44:03.960607+00:00",
-            "closed_at": "2026-10-03T00:44:03.263992+00:00"
           }
         ]
       }
