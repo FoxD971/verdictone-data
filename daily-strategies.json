@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T00:57:34.066464+00:00",
-  "as_of": "2026-10-22",
+  "generated_at": "2026-10-23T00:46:57.257744+00:00",
+  "as_of": "2026-10-23",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -65,30 +65,33 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 15,
+        "closed_trades": 17,
         "wins": 7,
-        "win_rate": 0.4667,
-        "avg_r": 0.4,
-        "total_r": 6.0,
-        "pf": 1.75,
+        "win_rate": 0.4118,
+        "avg_r": 0.2353,
+        "total_r": 4.0,
+        "pf": 1.4,
         "max_dd_r": 7.0,
-        "open": [
-          {
-            "symbol": "ETH-USD",
-            "entry": 2443.86,
-            "stop": 2382.34,
-            "target": 2566.9,
-            "opened_at": "2026-10-21T00:44:05.387512+00:00"
-          },
+        "open": [],
+        "recent": [
           {
             "symbol": "SOL-USD",
             "entry": 106.11,
-            "stop": 103.44,
-            "target": 111.45,
-            "opened_at": "2026-10-21T00:44:05.387512+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 103.44,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00",
+            "closed_at": "2026-10-23T00:44:06.708092+00:00"
+          },
+          {
+            "symbol": "ETH-USD",
+            "entry": 2443.86,
+            "exit": 2382.34,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-10-21T00:44:05.387512+00:00",
+            "closed_at": "2026-10-23T00:44:06.708092+00:00"
+          },
           {
             "symbol": "DOGE-USD",
             "entry": 0.0802,
@@ -160,24 +163,6 @@
             "r": -1.0,
             "opened_at": "2026-10-12T00:44:06.399464+00:00",
             "closed_at": "2026-10-12T00:45:59.448406+00:00"
-          },
-          {
-            "symbol": "SOL-USD",
-            "entry": 120.08,
-            "exit": 118.51,
-            "reason": "stop",
-            "r": -1.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-08T00:44:06.713397+00:00"
-          },
-          {
-            "symbol": "ETH-USD",
-            "entry": 2690.63,
-            "exit": 2665.15,
-            "reason": "stop",
-            "r": -1.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-08T00:44:06.713397+00:00"
           }
         ]
       }
