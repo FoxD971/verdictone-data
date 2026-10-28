@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T00:49:01.551314+00:00",
-  "as_of": "2026-10-27",
+  "generated_at": "2026-10-28T00:50:38.918043+00:00",
+  "as_of": "2026-10-28",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -72,7 +72,15 @@
         "total_r": 4.0,
         "pf": 1.4,
         "max_dd_r": 7.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "ETH-USD",
+            "entry": 2340.4,
+            "stop": 2290,
+            "target": 2441.2000000000003,
+            "opened_at": "2026-10-28T00:44:15.678591+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "SOL-USD",
