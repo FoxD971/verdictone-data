@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T00:47:16.046271+00:00",
-  "as_of": "2026-11-01",
+  "generated_at": "2026-11-02T01:47:38.139793+00:00",
+  "as_of": "2026-11-02",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -72,7 +72,22 @@
         "total_r": 2.0,
         "pf": 1.167,
         "max_dd_r": 7.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "BTC-USD",
+            "entry": 77645.12,
+            "stop": 76954.57,
+            "target": 79026.21999999997,
+            "opened_at": "2026-11-02T01:44:04.765607+00:00"
+          },
+          {
+            "symbol": "ETH-USD",
+            "entry": 2265,
+            "stop": 2233.08,
+            "target": 2328.84,
+            "opened_at": "2026-11-02T01:44:04.765607+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "ETH-USD",
@@ -186,7 +201,15 @@
         "total_r": 3.0,
         "pf": 1.429,
         "max_dd_r": 6.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "BTC-USD",
+            "entry": 77645.12,
+            "stop": 76954.57,
+            "target": 79026.21999999997,
+            "opened_at": "2026-11-02T01:44:04.765607+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "BTC-USD",
