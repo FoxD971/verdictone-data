@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T01:47:39.406326+00:00",
-  "as_of": "2026-11-05",
+  "generated_at": "2026-11-06T01:47:52.903648+00:00",
+  "as_of": "2026-11-06",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -65,23 +65,24 @@
         "note": "4 years with real costs. Positive every year."
       },
       "paper": {
-        "closed_trades": 22,
+        "closed_trades": 23,
         "wins": 7,
-        "win_rate": 0.3182,
-        "avg_r": -0.0455,
-        "total_r": -1.0,
-        "pf": 0.933,
-        "max_dd_r": 8.0,
-        "open": [
+        "win_rate": 0.3043,
+        "avg_r": -0.087,
+        "total_r": -2.0,
+        "pf": 0.875,
+        "max_dd_r": 9.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "DOGE-USD",
             "entry": 0.07599,
-            "stop": 0.07455,
-            "target": 0.07887,
-            "opened_at": "2026-11-05T01:44:04.423503+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 0.07455,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-11-05T01:44:04.423503+00:00",
+            "closed_at": "2026-11-06T01:44:04.913544+00:00"
+          },
           {
             "symbol": "XRP-USD",
             "entry": 1.2582,
@@ -162,15 +163,6 @@
             "r": 2.0,
             "opened_at": "2026-10-21T00:44:05.387512+00:00",
             "closed_at": "2026-10-22T00:44:12.023152+00:00"
-          },
-          {
-            "symbol": "BTC-USD",
-            "entry": 81655.47,
-            "exit": 83566.41,
-            "reason": "target",
-            "r": 2.0,
-            "opened_at": "2026-10-19T00:44:17.391965+00:00",
-            "closed_at": "2026-10-22T00:44:12.023152+00:00"
           }
         ]
       }
@@ -187,23 +179,24 @@
         "note": "4 years with real costs on BTC, ETH, XRP, SOL, DOGE and gold. Win rate 58.1 percent, total +97.17R, positive on every symbol. 2026 was flat at -0.011R."
       },
       "paper": {
-        "closed_trades": 14,
+        "closed_trades": 15,
         "wins": 5,
-        "win_rate": 0.3571,
-        "avg_r": 0.0714,
-        "total_r": 1.0,
-        "pf": 1.111,
-        "max_dd_r": 7.0,
-        "open": [
+        "win_rate": 0.3333,
+        "avg_r": 0.0,
+        "total_r": 0.0,
+        "pf": 1.0,
+        "max_dd_r": 8.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "DOGE-USD",
             "entry": 0.07631,
-            "stop": 0.07477,
-            "target": 0.07939,
-            "opened_at": "2026-11-05T01:44:04.423503+00:00"
-          }
-        ],
-        "recent": [
+            "exit": 0.07477,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-11-05T01:44:04.423503+00:00",
+            "closed_at": "2026-11-06T01:44:04.913544+00:00"
+          },
           {
             "symbol": "XRP-USD",
             "entry": 1.2582,
@@ -280,15 +273,6 @@
             "symbol": "SOL-USD",
             "entry": 120.08,
             "exit": 118.51,
-            "reason": "stop",
-            "r": -1.0,
-            "opened_at": "2026-10-05T00:44:08.768986+00:00",
-            "closed_at": "2026-10-08T00:44:06.713397+00:00"
-          },
-          {
-            "symbol": "ETH-USD",
-            "entry": 2690.63,
-            "exit": 2665.15,
             "reason": "stop",
             "r": -1.0,
             "opened_at": "2026-10-05T00:44:08.768986+00:00",
@@ -388,23 +372,25 @@
         "note": "4 years with real costs. Win rate 77.2 percent. Cycle 36 winner, beats parent NR3TS on profit factor, win rate, and max drawdown. Current alert champion (dethroned TURTLE10TSRV v3.0 on 3 of 3)."
       },
       "paper": {
-        "closed_trades": 0,
+        "closed_trades": 1,
         "wins": 0,
-        "win_rate": null,
-        "avg_r": null,
-        "total_r": null,
-        "pf": null,
-        "max_dd_r": null,
-        "open": [
+        "win_rate": 0.0,
+        "avg_r": -1.0,
+        "total_r": -1.0,
+        "pf": 0.0,
+        "max_dd_r": 1.0,
+        "open": [],
+        "recent": [
           {
             "symbol": "ETH-USD",
             "entry": 2275.51,
-            "stop": 2245.34,
-            "target": 2335.8500000000004,
-            "opened_at": "2026-11-05T01:44:04.423503+00:00"
+            "exit": 2245.34,
+            "reason": "stop",
+            "r": -1.0,
+            "opened_at": "2026-11-05T01:44:04.423503+00:00",
+            "closed_at": "2026-11-06T01:44:04.913544+00:00"
           }
-        ],
-        "recent": []
+        ]
       }
     }
   ]
