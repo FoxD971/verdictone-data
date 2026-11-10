@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T01:48:51.044578+00:00",
+  "generated_at": "2026-11-10T02:16:11.929234+00:00",
   "as_of": "2026-11-10",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -391,6 +391,66 @@
             "closed_at": "2026-11-06T01:44:04.913544+00:00"
           }
         ]
+      }
+    },
+    {
+      "id": "chainx-watch",
+      "display_name": "ChainX Watch \u2014 EXPERIMENTAL, UNPROVEN",
+      "description": "Paper-only watch for ChainX-style zone setups on 30 OKX altcoin perps (support_hold / resistance_reject / post_flush / sweep_bos). EXPERIMENTAL, UNPROVEN: the mechanical core FAILED the Oct 22 2026 gauntlet (763 trades, -0.088R net, PF 0.67, maxDD 87.9R). Flags are zone arrivals for discretionary decision, not a system with an edge. Verdict at 20-30 flagged setups. Stop 7.3% beyond zone; TP ladder 0.25R/0.50R/1.40R; 30x isolated liquidates ~3.3% away, before the stop.",
+      "backtest": {
+        "trades": 763,
+        "avg_r": -0.088,
+        "pf": 0.67,
+        "max_dd_r": 87.9,
+        "note": "Oct 22 2026 gauntlet, CHAINX-CORE v1.0: FAILED. Negative in every year and on 23 of 30 symbols. Entry quality was the failure: the mechanical zone proxy buys pauses mid-descent."
+      },
+      "paper": {
+        "closed_trades": 0,
+        "wins": 0,
+        "win_rate": null,
+        "avg_r": null,
+        "total_r": null,
+        "pf": null,
+        "max_dd_r": null,
+        "open": [
+          {
+            "symbol": "BNB",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 686.751339,
+            "stop": 636.618491,
+            "target": 699.284551,
+            "tp2": 700.0,
+            "tp3": 727.0,
+            "liq_30x_isolated": 663.859628,
+            "opened_at": "2026-11-10T01:00:00Z"
+          },
+          {
+            "symbol": "HYPE",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 75.442595,
+            "stop": 69.935286,
+            "target": 76.819422,
+            "tp2": 78.19625,
+            "tp3": 80.0,
+            "liq_30x_isolated": 72.927842,
+            "opened_at": "2026-11-10T01:00:00Z"
+          },
+          {
+            "symbol": "PENGU",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 0.00638,
+            "stop": 0.005914,
+            "target": 0.006439,
+            "tp2": 0.006613,
+            "tp3": 0.00676,
+            "liq_30x_isolated": 0.006168,
+            "opened_at": "2026-11-10T01:00:00Z"
+          }
+        ],
+        "recent": []
       }
     }
   ]
