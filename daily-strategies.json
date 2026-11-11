@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:48:50.728955+00:00",
+  "generated_at": "2026-11-11T09:00:25.784996+00:00",
   "as_of": "2026-11-11",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -448,6 +448,30 @@
             "tp3": 0.00676,
             "liq_30x_isolated": 0.006168,
             "opened_at": "2026-11-10T01:00:00Z"
+          },
+          {
+            "symbol": "DOGE",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 0.067928,
+            "stop": 0.062969,
+            "target": 0.069168,
+            "tp2": 0.07012,
+            "tp3": 0.07296,
+            "liq_30x_isolated": 0.065664,
+            "opened_at": "2026-11-11T08:00:00Z"
+          },
+          {
+            "symbol": "ETH",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 2080.01103,
+            "stop": 1928.170225,
+            "target": 2117.971231,
+            "tp2": 2155.931433,
+            "tp3": 2261.63,
+            "liq_30x_isolated": 2010.677329,
+            "opened_at": "2026-11-11T08:00:00Z"
           }
         ],
         "recent": [
