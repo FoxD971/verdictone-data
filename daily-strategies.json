@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:00:25.784996+00:00",
+  "generated_at": "2026-11-11T11:00:03.925440+00:00",
   "as_of": "2026-11-11",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -472,6 +472,18 @@
             "tp3": 2261.63,
             "liq_30x_isolated": 2010.677329,
             "opened_at": "2026-11-11T08:00:00Z"
+          },
+          {
+            "symbol": "HYPE",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 73.420264,
+            "stop": 68.060584,
+            "target": 74.760183,
+            "tp2": 76.100103,
+            "tp3": 80.0,
+            "liq_30x_isolated": 70.972921,
+            "opened_at": "2026-11-11T10:00:00Z"
           }
         ],
         "recent": [
