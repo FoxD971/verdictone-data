@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:48:48.568870+00:00",
+  "generated_at": "2026-11-13T08:01:29.489124+00:00",
   "as_of": "2026-11-13",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -405,38 +405,14 @@
         "note": "Oct 22 2026 gauntlet, CHAINX-CORE v1.0: FAILED. Negative in every year and on 23 of 30 symbols. Entry quality was the failure: the mechanical zone proxy buys pauses mid-descent."
       },
       "paper": {
-        "closed_trades": 4,
+        "closed_trades": 7,
         "wins": 3,
-        "win_rate": 0.75,
-        "avg_r": -0.239,
-        "total_r": -0.956,
-        "pf": 0.082,
-        "max_dd_r": 1.041,
+        "win_rate": 0.4286,
+        "avg_r": -0.5827,
+        "total_r": -4.079,
+        "pf": 0.02,
+        "max_dd_r": 4.079,
         "open": [
-          {
-            "symbol": "BNB",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 686.751339,
-            "stop": 636.618491,
-            "target": 699.284551,
-            "tp2": 700.0,
-            "tp3": 727.0,
-            "liq_30x_isolated": 663.859628,
-            "opened_at": "2026-11-10T01:00:00Z"
-          },
-          {
-            "symbol": "ETH",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 2080.01103,
-            "stop": 1928.170225,
-            "target": 2117.971231,
-            "tp2": 2155.931433,
-            "tp3": 2261.63,
-            "liq_30x_isolated": 2010.677329,
-            "opened_at": "2026-11-11T08:00:00Z"
-          },
           {
             "symbol": "HYPE",
             "side": "long",
@@ -462,18 +438,6 @@
             "opened_at": "2026-11-12T08:00:00Z"
           },
           {
-            "symbol": "DOGE",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 0.067928,
-            "stop": 0.062969,
-            "target": 0.069168,
-            "tp2": 0.07012,
-            "tp3": 0.07296,
-            "liq_30x_isolated": 0.065664,
-            "opened_at": "2026-11-12T08:00:00Z"
-          },
-          {
             "symbol": "SOL",
             "side": "long",
             "subtype": "support_hold",
@@ -484,9 +448,39 @@
             "tp3": 90.0,
             "liq_30x_isolated": 80.666191,
             "opened_at": "2026-11-12T13:00:00Z"
+          },
+          {
+            "symbol": "HYPE",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 71.313795,
+            "stop": 66.107888,
+            "target": 72.615272,
+            "tp2": 73.916749,
+            "tp3": 78.602065,
+            "liq_30x_isolated": 68.936668,
+            "opened_at": "2026-11-13T08:00:00Z"
           }
         ],
         "recent": [
+          {
+            "symbol": "DOGE",
+            "entry": 0.067928,
+            "exit": 0.06297,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-12T08:00:00Z",
+            "closed_at": "2026-11-13T08:00:00Z"
+          },
+          {
+            "symbol": "ETH",
+            "entry": 2080.01103,
+            "exit": 1928.0,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-11T08:00:00Z",
+            "closed_at": "2026-11-13T08:00:00Z"
+          },
           {
             "symbol": "DOGE",
             "entry": 0.067928,
@@ -522,6 +516,15 @@
             "r": -1.041,
             "opened_at": "2026-11-10T01:00:00Z",
             "closed_at": "2026-11-12T14:00:00Z"
+          },
+          {
+            "symbol": "BNB",
+            "entry": 686.751339,
+            "exit": 636.6,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-10T01:00:00Z",
+            "closed_at": "2026-11-13T08:00:00Z"
           }
         ]
       }
