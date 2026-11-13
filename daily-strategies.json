@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:01:29.489124+00:00",
+  "generated_at": "2026-11-13T13:00:44.802138+00:00",
   "as_of": "2026-11-13",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -460,6 +460,42 @@
             "tp3": 78.602065,
             "liq_30x_isolated": 68.936668,
             "opened_at": "2026-11-13T08:00:00Z"
+          },
+          {
+            "symbol": "LTC",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 49.823355,
+            "stop": 46.18625,
+            "target": 50.49,
+            "tp2": 51.641907,
+            "tp3": 53.2,
+            "liq_30x_isolated": 48.162577,
+            "opened_at": "2026-11-13T12:00:00Z"
+          },
+          {
+            "symbol": "SUI",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 0.811163,
+            "stop": 0.751948,
+            "target": 0.825966,
+            "tp2": 0.84077,
+            "tp3": 0.8577,
+            "liq_30x_isolated": 0.784124,
+            "opened_at": "2026-11-13T12:00:00Z"
+          },
+          {
+            "symbol": "ZEC",
+            "side": "long",
+            "subtype": "support_hold",
+            "entry": 978.798309,
+            "stop": 907.346032,
+            "target": 996.661378,
+            "tp2": 1000.0,
+            "tp3": 1078.831496,
+            "liq_30x_isolated": 946.171699,
+            "opened_at": "2026-11-13T12:00:00Z"
           }
         ],
         "recent": [
