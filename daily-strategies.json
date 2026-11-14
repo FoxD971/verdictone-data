@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:01:17.451823+00:00",
+  "generated_at": "2026-11-14T15:01:00.655602+00:00",
   "as_of": "2026-11-14",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -405,38 +405,14 @@
         "note": "Oct 22 2026 gauntlet, CHAINX-CORE v1.0: FAILED. Negative in every year and on 23 of 30 symbols. Entry quality was the failure: the mechanical zone proxy buys pauses mid-descent."
       },
       "paper": {
-        "closed_trades": 13,
+        "closed_trades": 15,
         "wins": 4,
-        "win_rate": 0.3077,
-        "avg_r": -0.6981,
-        "total_r": -9.075,
-        "pf": 0.031,
-        "max_dd_r": 9.075,
+        "win_rate": 0.2667,
+        "avg_r": -0.7438,
+        "total_r": -11.157,
+        "pf": 0.026,
+        "max_dd_r": 11.157,
         "open": [
-          {
-            "symbol": "LTC",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 49.823355,
-            "stop": 46.18625,
-            "target": 50.49,
-            "tp2": 51.641907,
-            "tp3": 53.2,
-            "liq_30x_isolated": 48.162577,
-            "opened_at": "2026-11-13T12:00:00Z"
-          },
-          {
-            "symbol": "SUI",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 0.811163,
-            "stop": 0.751948,
-            "target": 0.825966,
-            "tp2": 0.84077,
-            "tp3": 0.8577,
-            "liq_30x_isolated": 0.784124,
-            "opened_at": "2026-11-13T12:00:00Z"
-          },
           {
             "symbol": "XRP",
             "side": "long",
@@ -468,6 +444,24 @@
             "r": -1.041,
             "opened_at": "2026-11-13T12:00:00Z",
             "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
+            "symbol": "SUI",
+            "entry": 0.811163,
+            "exit": 0.7519,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-13T12:00:00Z",
+            "closed_at": "2026-11-14T15:00:00Z"
+          },
+          {
+            "symbol": "LTC",
+            "entry": 49.823355,
+            "exit": 46.19,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-13T12:00:00Z",
+            "closed_at": "2026-11-14T15:00:00Z"
           },
           {
             "symbol": "HYPE",
@@ -522,24 +516,6 @@
             "r": -1.041,
             "opened_at": "2026-11-11T08:00:00Z",
             "closed_at": "2026-11-13T08:00:00Z"
-          },
-          {
-            "symbol": "DOGE",
-            "entry": 0.067928,
-            "exit": 0.06793,
-            "reason": "TP1 then stop",
-            "r": 0.042,
-            "opened_at": "2026-11-11T08:00:00Z",
-            "closed_at": "2026-11-12T08:00:00Z"
-          },
-          {
-            "symbol": "LINK",
-            "entry": 10.385357,
-            "exit": 10.39,
-            "reason": "TP1 then stop",
-            "r": 0.042,
-            "opened_at": "2026-11-10T10:00:00Z",
-            "closed_at": "2026-11-10T15:00:00Z"
           }
         ]
       }
