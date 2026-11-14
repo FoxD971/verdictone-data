@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:52:53.941915+00:00",
+  "generated_at": "2026-11-14T08:01:17.451823+00:00",
   "as_of": "2026-11-14",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -405,62 +405,14 @@
         "note": "Oct 22 2026 gauntlet, CHAINX-CORE v1.0: FAILED. Negative in every year and on 23 of 30 symbols. Entry quality was the failure: the mechanical zone proxy buys pauses mid-descent."
       },
       "paper": {
-        "closed_trades": 7,
-        "wins": 3,
-        "win_rate": 0.4286,
-        "avg_r": -0.5827,
-        "total_r": -4.079,
-        "pf": 0.02,
-        "max_dd_r": 4.079,
+        "closed_trades": 13,
+        "wins": 4,
+        "win_rate": 0.3077,
+        "avg_r": -0.6981,
+        "total_r": -9.075,
+        "pf": 0.031,
+        "max_dd_r": 9.075,
         "open": [
-          {
-            "symbol": "HYPE",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 73.420264,
-            "stop": 68.060584,
-            "target": 74.760183,
-            "tp2": 76.100103,
-            "tp3": 80.0,
-            "liq_30x_isolated": 70.972921,
-            "opened_at": "2026-11-11T10:00:00Z"
-          },
-          {
-            "symbol": "ARB",
-            "side": "long",
-            "subtype": "post_flush",
-            "entry": 0.149734,
-            "stop": 0.138803,
-            "target": 0.152466,
-            "tp2": 0.155199,
-            "tp3": 0.165036,
-            "liq_30x_isolated": 0.144743,
-            "opened_at": "2026-11-12T08:00:00Z"
-          },
-          {
-            "symbol": "SOL",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 83.447784,
-            "stop": 77.356096,
-            "target": 84.970706,
-            "tp2": 86.493628,
-            "tp3": 90.0,
-            "liq_30x_isolated": 80.666191,
-            "opened_at": "2026-11-12T13:00:00Z"
-          },
-          {
-            "symbol": "HYPE",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 71.313795,
-            "stop": 66.107888,
-            "target": 72.615272,
-            "tp2": 73.916749,
-            "tp3": 78.602065,
-            "liq_30x_isolated": 68.936668,
-            "opened_at": "2026-11-13T08:00:00Z"
-          },
           {
             "symbol": "LTC",
             "side": "long",
@@ -486,30 +438,6 @@
             "opened_at": "2026-11-13T12:00:00Z"
           },
           {
-            "symbol": "ZEC",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 978.798309,
-            "stop": 907.346032,
-            "target": 996.661378,
-            "tp2": 1000.0,
-            "tp3": 1078.831496,
-            "liq_30x_isolated": 946.171699,
-            "opened_at": "2026-11-13T12:00:00Z"
-          },
-          {
-            "symbol": "LINK",
-            "side": "long",
-            "subtype": "support_hold",
-            "entry": 10.261685,
-            "stop": 9.512582,
-            "target": 10.448961,
-            "tp2": 10.636237,
-            "tp3": 11.310429,
-            "liq_30x_isolated": 9.919629,
-            "opened_at": "2026-11-13T14:00:00Z"
-          },
-          {
             "symbol": "XRP",
             "side": "long",
             "subtype": "support_hold",
@@ -524,6 +452,42 @@
         ],
         "recent": [
           {
+            "symbol": "LINK",
+            "entry": 10.261685,
+            "exit": 9.513,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-13T14:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
+            "symbol": "ZEC",
+            "entry": 978.798309,
+            "exit": 907.3,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-13T12:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
+            "symbol": "HYPE",
+            "entry": 71.313795,
+            "exit": 71.31,
+            "reason": "TP2 then stop",
+            "r": 0.209,
+            "opened_at": "2026-11-13T08:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
+            "symbol": "SOL",
+            "entry": 83.447784,
+            "exit": 77.36,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-12T13:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
             "symbol": "DOGE",
             "entry": 0.067928,
             "exit": 0.06297,
@@ -531,6 +495,24 @@
             "r": -1.041,
             "opened_at": "2026-11-12T08:00:00Z",
             "closed_at": "2026-11-13T08:00:00Z"
+          },
+          {
+            "symbol": "ARB",
+            "entry": 0.149734,
+            "exit": 0.1388,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-12T08:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
+          },
+          {
+            "symbol": "HYPE",
+            "entry": 73.420264,
+            "exit": 68.06,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-11T10:00:00Z",
+            "closed_at": "2026-11-14T08:00:00Z"
           },
           {
             "symbol": "ETH",
@@ -558,33 +540,6 @@
             "r": 0.042,
             "opened_at": "2026-11-10T10:00:00Z",
             "closed_at": "2026-11-10T15:00:00Z"
-          },
-          {
-            "symbol": "PENGU",
-            "entry": 0.00638,
-            "exit": 0.00638,
-            "reason": "TP1 then stop",
-            "r": 0.001,
-            "opened_at": "2026-11-10T01:00:00Z",
-            "closed_at": "2026-11-12T08:00:00Z"
-          },
-          {
-            "symbol": "HYPE",
-            "entry": 75.442595,
-            "exit": 69.94,
-            "reason": "stop",
-            "r": -1.041,
-            "opened_at": "2026-11-10T01:00:00Z",
-            "closed_at": "2026-11-12T14:00:00Z"
-          },
-          {
-            "symbol": "BNB",
-            "entry": 686.751339,
-            "exit": 636.6,
-            "reason": "stop",
-            "r": -1.041,
-            "opened_at": "2026-11-10T01:00:00Z",
-            "closed_at": "2026-11-13T08:00:00Z"
           }
         ]
       }
