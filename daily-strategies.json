@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:49:06.290911+00:00",
+  "generated_at": "2026-11-15T08:01:32.075406+00:00",
   "as_of": "2026-11-15",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
@@ -405,28 +405,24 @@
         "note": "Oct 22 2026 gauntlet, CHAINX-CORE v1.0: FAILED. Negative in every year and on 23 of 30 symbols. Entry quality was the failure: the mechanical zone proxy buys pauses mid-descent."
       },
       "paper": {
-        "closed_trades": 15,
+        "closed_trades": 16,
         "wins": 4,
-        "win_rate": 0.2667,
-        "avg_r": -0.7438,
-        "total_r": -11.157,
-        "pf": 0.026,
-        "max_dd_r": 11.157,
-        "open": [
+        "win_rate": 0.25,
+        "avg_r": -0.7624,
+        "total_r": -12.198,
+        "pf": 0.024,
+        "max_dd_r": 12.198,
+        "open": [],
+        "recent": [
           {
             "symbol": "XRP",
-            "side": "long",
-            "subtype": "support_hold",
             "entry": 1.052525,
-            "stop": 0.97569,
-            "target": 1.071733,
-            "tp2": 1.0825,
-            "tp3": 1.1211,
-            "liq_30x_isolated": 1.017441,
-            "opened_at": "2026-11-13T14:00:00Z"
-          }
-        ],
-        "recent": [
+            "exit": 0.9757,
+            "reason": "stop",
+            "r": -1.041,
+            "opened_at": "2026-11-13T14:00:00Z",
+            "closed_at": "2026-11-15T08:00:00Z"
+          },
           {
             "symbol": "LINK",
             "entry": 10.261685,
@@ -507,15 +503,6 @@
             "r": -1.041,
             "opened_at": "2026-11-11T10:00:00Z",
             "closed_at": "2026-11-14T08:00:00Z"
-          },
-          {
-            "symbol": "ETH",
-            "entry": 2080.01103,
-            "exit": 1928.0,
-            "reason": "stop",
-            "r": -1.041,
-            "opened_at": "2026-11-11T08:00:00Z",
-            "closed_at": "2026-11-13T08:00:00Z"
           }
         ]
       }
