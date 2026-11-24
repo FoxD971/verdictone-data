@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T01:50:17.528089+00:00",
-  "as_of": "2026-11-23",
+  "generated_at": "2026-11-24T01:49:58.981501+00:00",
+  "as_of": "2026-11-24",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -72,7 +72,22 @@
         "total_r": -5.0,
         "pf": 0.737,
         "max_dd_r": 12.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "SOL-USD",
+            "entry": 71.3,
+            "stop": 68.59,
+            "target": 76.71999999999998,
+            "opened_at": "2026-11-24T01:44:42.328341+00:00"
+          },
+          {
+            "symbol": "XRP-USD",
+            "entry": 0.9374,
+            "stop": 0.9099,
+            "target": 0.9924,
+            "opened_at": "2026-11-24T01:44:42.328341+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "SOL-USD",
