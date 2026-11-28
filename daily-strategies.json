@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T01:49:13.698172+00:00",
-  "as_of": "2026-11-27",
+  "generated_at": "2026-11-28T01:49:27.680927+00:00",
+  "as_of": "2026-11-28",
   "note": "Forward paper log for the daily breakout strategies. Paper only, never live.",
   "variants": [
     {
@@ -72,7 +72,15 @@
         "total_r": -7.0,
         "pf": 0.667,
         "max_dd_r": 14.0,
-        "open": [],
+        "open": [
+          {
+            "symbol": "DOGE-USD",
+            "entry": 0.05724,
+            "stop": 0.05571,
+            "target": 0.06029999999999999,
+            "opened_at": "2026-11-28T01:44:48.783375+00:00"
+          }
+        ],
         "recent": [
           {
             "symbol": "SOL-USD",
